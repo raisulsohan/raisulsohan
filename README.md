@@ -44,8 +44,12 @@ I build free, open-source workflow automation tools and dockable panels for **Mo
 ### 📈 GitHub Highlights
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=raisulsohan&show_icons=true&theme=tokyonight&hide_border=true" alt="Raisul Sohan's Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raisulsohan&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=raisulsohan&theme=tokyonight" alt="Raisul Sohan's Stats" height="165" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=raisulsohan&theme=tokyonight" alt="Top Languages" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=raisulsohan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
