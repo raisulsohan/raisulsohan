@@ -1,59 +1,33 @@
-# ⚡ Hi, I'm Raisul Sohan
-
-`Creative Developer` &bull; `Motion Tools Maker` &bull; `Automation Geek`
-
-I build free, open-source workflow automation tools and dockable panels for **Motion Designers**, **Video Editors**, and **Creators**. 
-
-[![GitHub followers](https://img.shields.io/github/followers/raisulsohan?style=for-the-badge&logo=github&color=24292e)](https://github.com/raisulsohan?tab=followers)
-[![Website](https://img.shields.io/badge/Website-Personal_Site-FF7139?style=for-the-badge&logo=wordpress&logoColor=white)](https://raisulsohan.com)
-[![Location](https://img.shields.io/badge/Dhaka-Bangladesh-1f883d?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/raisulsohan)
-
----
-
-### 🧰 Tools & Technologies
-
-#### **Creative & Motion Ecosystem**
-![After Effects](https://img.shields.io/badge/After_Effects-9999FF?style=flat-square&logo=adobeaftereffects&logoColor=white)
-![Premiere Pro](https://img.shields.io/badge/Premiere_Pro-EA77FF?style=flat-square&logo=adobepremierepro&logoColor=white)
-![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white)
-![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square&logo=adobeillustrator&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-
-#### **Development & Scripting**
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![ExtendScript](https://img.shields.io/badge/Adobe_CEP_/_ExtendScript-00599C?style=flat-square&logo=adobe&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
----
-
-### 🚀 Featured Motion Tools & Productivity Suites
-
-| Tool | What it does | Stack |
-| :--- | :--- | :--- |
-| **[LazyLord](https://github.com/raisulsohan/LazyLord)** | 👑 Free forever Overlord alternative — transfer vectors seamlessly between Figma, PS, AI, and AE. | `JavaScript` `CEP` |
-| **[LazyMotionToolkit](https://github.com/raisulsohan/LazyMotionToolkit)** | 🛠️ Dockable AE panel: Smart precomps, auto text boxes, 7 easing fades, anchor point grid & color swatches. | `ExtendScript` `AE` |
-| **[LazyImageGeneration](https://github.com/raisulsohan/LazyImageGeneration)** | 🎨 AI image generator inside After Effects & Premiere Pro without browser switching or API keys. | `JavaScript` `AI` |
-| **[LazyKick](https://github.com/raisulsohan/LazyKick)** | 📋 Paste clipboard media directly to timeline & auto-import folders with timecoded project notes. | `JavaScript` `Premiere/AE` |
-| **[QuietScroll](https://github.com/raisulsohan/QuietScroll)** | 🔊 Smart per-site volume and audio control extension for smooth, distraction-free browsing. | `JavaScript` `Extension` |
-
----
-
-### 📈 GitHub Highlights
+<a href="https://raisulsohan.com">
+  <img src="./assets/header.svg" width="100%" alt="Raisul Sohan — creative developer, motion tools maker and automation geek. I build free, open-source workflow tools for motion designers, video editors and creators." />
+</a>
 
 <p align="center">
-  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Raisul Sohan's Stats" height="165" />
-  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Top Languages" height="165" />
+  <a href="https://raisulsohan.com"><b>raisulsohan.com</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/raisulsohan?tab=repositories"><b>All repositories</b></a>
+  &nbsp;·&nbsp;
+  Dhaka,&nbsp;Bangladesh
+</p>
+
+### ◆ Featured tools
+
+<a href="https://github.com/raisulsohan/LazyLord"><img src="./assets/card-lazylord.svg" width="100%" alt="LazyLord — a full replacement for Overlord, free forever. Move vectors, live text and images between Figma, Photoshop, Illustrator and After Effects." /></a>
+
+<p align="center">
+  <a href="https://github.com/raisulsohan/LazyMotionToolkit"><img src="./assets/card-lazymotiontoolkit.svg" width="49%" alt="LazyMotionToolkit — one dockable After Effects panel: smart precomps, auto text boxes, fades with 7 easings, anchor pad, grids, swatches and lightning FX." /></a> <a href="https://github.com/raisulsohan/LazyImageGeneration"><img src="./assets/card-lazyimagegeneration.svg" width="49%" alt="LazyImageGeneration — generate AI images with your own ChatGPT account inside After Effects and Premiere Pro. No API key needed." /></a>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=raisulsohan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <a href="https://github.com/raisulsohan/LazyKick"><img src="./assets/card-lazykick.svg" width="49%" alt="LazyKick — paste clipboard images onto the timeline, keep timecoded project notes and auto-import watch folders in After Effects and Premiere Pro." /></a> <a href="https://github.com/raisulsohan/QuietScroll"><img src="./assets/card-quietscroll.svg" width="49%" alt="QuietScroll — Alt + mouse wheel volume control for any video or audio player, remembered per website. Chrome and Edge extension." /></a>
 </p>
 
----
+### ◆ Toolbox
 
-### 💬 Let's Connect!
-Have a workflow problem you want solved, or an idea for an AE/Premiere tool? 
-Feel free to open an issue or reach out!
+<img src="./assets/stack.svg" width="100%" alt="Design and motion: After Effects, Premiere Pro, Photoshop, Illustrator, Figma. Code and automation: JavaScript, Node.js, CEP / ExtendScript, PHP, WordPress, Git." />
+
+### ◆ Activity
+
+<img src="./assets/activity.svg" width="100%" alt="GitHub activity over the last 12 months: contributions, public repositories, stars and top languages." />
+
+<a href="https://raisulsohan.com"><img src="./assets/footer.svg" width="100%" alt="Got a workflow problem worth automating? Open an issue on any of the tools above, or say hi at raisulsohan.com." /></a>
