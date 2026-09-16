@@ -44,8 +44,8 @@ I build free, open-source workflow automation tools and dockable panels for **Mo
 ### 📈 GitHub Highlights
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=raisulsohan&theme=tokyonight" alt="Raisul Sohan's Stats" height="165" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=raisulsohan&theme=tokyonight" alt="Top Languages" height="165" />
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Raisul Sohan's Stats" height="165" />
+  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Top Languages" height="165" />
 </p>
 
 <p align="center">
