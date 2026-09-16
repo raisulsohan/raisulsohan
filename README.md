@@ -5,7 +5,7 @@
 I build free, open-source workflow automation tools and dockable panels for **Motion Designers**, **Video Editors**, and **Creators**. 
 
 [![GitHub followers](https://img.shields.io/github/followers/raisulsohan?style=for-the-badge&logo=github&color=24292e)](https://github.com/raisulsohan?tab=followers)
-[![Website](https://img.shields.io/badge/Website-Personal_Site-FF7139?style=for-the-badge&logo=wordpress&logoColor=white)](https://github.com/raisulsohan/RaisulSohanSite)
+[![Website](https://img.shields.io/badge/Website-Personal_Site-FF7139?style=for-the-badge&logo=wordpress&logoColor=white)](https://raisulsohan.com)
 [![Location](https://img.shields.io/badge/Dhaka-Bangladesh-1f883d?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/raisulsohan)
 
 ---
