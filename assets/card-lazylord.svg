@@ -5,25 +5,23 @@
     .d1{animation-delay:.05s}.d2{animation-delay:.2s}.d3{animation-delay:.35s}.d4{animation-delay:.5s}
     @keyframes fu{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
     @media (prefers-reduced-motion:reduce){*{animation:none!important}}
-    /* logo build, timed like the LazyLord banner (3.2s), then a shine every 7s */
-    #lk-stem{animation:lk-stem 3.2s cubic-bezier(.2,.8,.2,1) both}
-    #lk-foot{animation:lk-foot 3.2s cubic-bezier(.2,.8,.2,1) both}
-    #lk-bridge{transform-box:fill-box;transform-origin:center;animation:lk-bridge 3.2s cubic-bezier(.3,1.4,.4,1) both}
-    #lk-wipe{transform-box:fill-box;transform-origin:left center;animation:lk-wipe 3.2s linear both}
-    #lk-word{animation:lk-word 3.2s linear both}
-    #lk-pulse{opacity:0;animation:lk-pulse 3.2s ease-in-out backwards,lk-pulse-loop 7s ease-in-out 3.2s infinite}
-    #lk-shine{opacity:0;animation:lk-shine 3.2s linear backwards,lk-shine-loop 7s linear 3.2s infinite}
-    #lk-back{opacity:0;animation:lk-back 3.2s ease-in-out backwards}
-    @keyframes lk-stem{0%{opacity:0;transform:translateY(1.5px)}9.375%,100%{opacity:1;transform:none}}
-    @keyframes lk-foot{0%,4.687%{opacity:0;transform:translateX(2.5px)}14.063%{opacity:1;transform:translateX(2.5px)}34.375%,100%{opacity:1;transform:none}}
-    @keyframes lk-bridge{0%,31.25%{opacity:0;transform:scaleX(0)}40.625%,100%{opacity:1;transform:scaleX(1)}}
-    @keyframes lk-wipe{0%,54.688%{transform:scaleX(0)}81.25%,100%{transform:scaleX(1)}}
-    @keyframes lk-word{0%,54.688%{transform:translateX(-1.5px)}81.25%,100%{transform:none}}
-    @keyframes lk-pulse{0%,15.625%{opacity:0;transform:translateX(-3px)}20.313%{opacity:1}34.375%{opacity:1;transform:none}39.063%,100%{opacity:0;transform:none}}
-    @keyframes lk-shine{0%,45.312%{opacity:0;transform:translateX(-2px)}46.875%{opacity:.9}54.688%{opacity:.9;transform:translateX(14px)}81.25%{opacity:.9;transform:translateX(107.67px)}83.75%,100%{opacity:0;transform:translateX(107.67px)}}
-    @keyframes lk-back{0%,84.375%{opacity:0;transform:translateX(106.67px)}86.875%{opacity:.6}97.5%{opacity:.6;transform:translateX(-1px)}100%{opacity:0;transform:translateX(-1px)}}
-    @keyframes lk-pulse-loop{0%{opacity:0;transform:translateX(-3px)}3%{opacity:1}12%{opacity:1;transform:none}16%,100%{opacity:0;transform:none}}
-    @keyframes lk-shine-loop{0%,12%{opacity:0;transform:translateX(-2px)}14%{opacity:.9}20%{opacity:.9;transform:translateX(14px)}44%{opacity:.9;transform:translateX(107.67px)}47%,100%{opacity:0;transform:translateX(107.67px)}}
+    /* logo builds like the LazyLord banner (3.2s), holds, un-builds, repeats every 10s */
+    #lk-stem{animation:lk-stem 10s cubic-bezier(.2,.8,.2,1) infinite both}
+    #lk-foot{animation:lk-foot 10s cubic-bezier(.2,.8,.2,1) infinite both}
+    #lk-bridge{transform-box:fill-box;transform-origin:center;animation:lk-bridge 10s cubic-bezier(.3,1.4,.4,1) infinite both}
+    #lk-wipe{transform-box:fill-box;transform-origin:left center;animation:lk-wipe 10s linear infinite both}
+    #lk-word{animation:lk-word 10s linear infinite both}
+    #lk-pulse{opacity:0;animation:lk-pulse 10s ease-in-out infinite}
+    #lk-shine{opacity:0;animation:lk-shine 10s linear infinite}
+    #lk-back{opacity:0;animation:lk-back 10s ease-in-out infinite}
+    @keyframes lk-stem{0%{opacity:0;transform:translateY(1.5px)}3%,94%{opacity:1;transform:none}94%{animation-timing-function:cubic-bezier(.55,0,.8,.3)}97%,100%{opacity:0;transform:translateY(1.5px)}}
+    @keyframes lk-foot{0%,1.5%{opacity:0;transform:translateX(2.5px)}4.5%{opacity:1;transform:translateX(2.5px)}11%,92%{opacity:1;transform:none}92%{animation-timing-function:cubic-bezier(.55,0,.8,.3)}95.5%,100%{opacity:0;transform:translateX(2.5px)}}
+    @keyframes lk-bridge{0%,10%{opacity:0;transform:scaleX(0)}13%,91%{opacity:1;transform:scaleX(1)}91%{animation-timing-function:cubic-bezier(.55,0,.8,.3)}93%,100%{opacity:0;transform:scaleX(0)}}
+    @keyframes lk-wipe{0%,17.5%{transform:scaleX(0)}26%,88%{transform:scaleX(1)}88%{animation-timing-function:cubic-bezier(.55,0,.8,.3)}91.5%,100%{transform:scaleX(0)}}
+    @keyframes lk-word{0%,17.5%{transform:translateX(-1.5px)}26%,88%{transform:none}88%{animation-timing-function:cubic-bezier(.55,0,.8,.3)}91.5%,100%{transform:translateX(-1.5px)}}
+    @keyframes lk-pulse{0%,5%{opacity:0;transform:translateX(-3px)}6.5%{opacity:1}11%{opacity:1;transform:none}12.5%,100%{opacity:0;transform:none}}
+    @keyframes lk-shine{0%,14.5%{opacity:0;transform:translateX(-2px)}15%{opacity:.9}17.5%{opacity:.9;transform:translateX(14px)}26%{opacity:.9;transform:translateX(107.67px)}26.8%{opacity:0;transform:translateX(107.67px)}58%{opacity:0;transform:translateX(-2px)}59%{opacity:.9}61%{opacity:.9;transform:translateX(14px)}70%{opacity:.9;transform:translateX(107.67px)}71.5%,100%{opacity:0;transform:translateX(107.67px)}}
+    @keyframes lk-back{0%,27%{opacity:0;transform:translateX(106.67px)}27.8%{opacity:.6}31.2%{opacity:.6;transform:translateX(-1px)}32%,100%{opacity:0;transform:translateX(-1px)}}
 
     /* a transfer travels the hub; each app lights up as it arrives */
     .flow{stroke-dasharray:6 10;animation:flow 1.1s linear infinite}
