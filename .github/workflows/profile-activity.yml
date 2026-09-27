@@ -2,8 +2,8 @@ name: Profile activity card
 
 on:
   schedule:
-    - cron: "30 0 * * *"   # every day
-  workflow_dispatch:       # run by hand from the Actions tab
+    - cron: "15 */3 * * *"  # every 3 hours
+  workflow_dispatch:        # run by hand from the Actions tab
 
 permissions:
   contents: write
@@ -20,9 +20,20 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LOGIN: ${{ github.repository_owner }}
 
-      - name: Commit if changed
+      # The card lives on the `output` branch as a single orphan commit.
+      # Commits there are not counted as contributions and never show up
+      # in main's history or the contributors list.
+      - name: Publish to output branch
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/activity.svg
-          git diff --cached --quiet || { git commit -m "Update activity card"; git push; }
+          cp assets/activity.svg "$RUNNER_TEMP/activity.svg"
+          if git fetch -q origin output && git show origin/output:activity.svg | cmp -s - "$RUNNER_TEMP/activity.svg"; then
+            echo "Card unchanged"; exit 0
+          fi
+          git config user.name "Raisul Sohan"
+          git config user.email "lettertosohan@gmail.com"
+          git checkout -q --orphan output
+          git rm -rfq .
+          cp "$RUNNER_TEMP/activity.svg" activity.svg
+          git add activity.svg
+          git commit -qm "Update activity card"
+          git push -qf origin output

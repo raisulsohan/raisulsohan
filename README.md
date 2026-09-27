@@ -28,6 +28,6 @@
 
 ### ◆ Activity
 
-<img src="./assets/activity.svg" width="100%" alt="GitHub activity over the last 12 months: contributions, public repositories, stars and top languages." />
+<img src="https://raw.githubusercontent.com/raisulsohan/raisulsohan/output/activity.svg" width="100%" alt="GitHub activity over the last 12 months: contributions, public repositories, stars and top languages." />
 
 <a href="https://raisulsohan.com"><img src="./assets/footer.svg" width="100%" alt="Got a workflow problem worth automating? Open an issue on any of the tools above, or say hi at raisulsohan.com." /></a>
