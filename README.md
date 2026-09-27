@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/raisulsohan/LazyKick"><img src="./assets/card-lazykick.svg" width="49%" alt="LazyKick — paste clipboard images onto the timeline, keep timecoded project notes and auto-import watch folders in After Effects and Premiere Pro." /></a> <a href="https://github.com/raisulsohan/LazyScroll"><img src="./assets/card-lazyscroll.svg" width="49%" alt="LazyScroll — Alt + mouse wheel volume control for any video or audio player, remembered per website. Chrome and Edge extension." /></a>
+  <a href="https://github.com/raisulsohan/LazyKick"><img src="./assets/card-lazykick.svg" width="49%" alt="LazyKick — paste clipboard images onto the timeline, keep timecoded project notes and auto-import watch folders in After Effects and Premiere Pro." /></a> <a href="https://github.com/raisulsohan/LazyScroll"><img src="./assets/card-lazyscroll.svg" width="49%" alt="LazyScroll — smart per-site volume control for peaceful browsing. Chrome and Edge extension." /></a>
 </p>
 
 ### ◆ Toolbox
