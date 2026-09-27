@@ -24,7 +24,7 @@
 
 ### ◆ Toolbox
 
-<img src="./assets/stack.svg" width="100%" alt="Design and motion: After Effects, Premiere Pro, Photoshop, Illustrator, Figma. Code and automation: JavaScript, Node.js, CEP / ExtendScript, PHP, WordPress, Git." />
+<img src="./assets/stack.svg" width="100%" alt="Design and motion: After Effects, Premiere Pro, Photoshop, Illustrator, Figma, 3D. Code and automation: JavaScript, Node.js, TypeScript, PHP, WordPress, Git." />
 
 ### ◆ Activity
 
